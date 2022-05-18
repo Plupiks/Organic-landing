@@ -1,0 +1,30 @@
+.hero {
+  // .hero__container
+
+  padding: 65px 0 60px;
+  min-height: 700px;
+
+  // .hero__body
+  &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 640px;
+  }
+
+  // .hero__title
+  &__title {
+    color: $white;
+    font-size: 100px;
+    margin-bottom: 60px;
+  }
+
+  // .hero__text
+
+  &__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    color: $white;
+  }
+}

@@ -1,0 +1,165 @@
+@media only screen and (max-width: 1300px) {
+  .hero__body {
+    margin: 0 auto;
+  }
+
+  .sale__body {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .burger-menu {
+    display: block;
+  }
+
+  #menuToggle span {
+    background: $white;
+  }
+
+  #menuToggle input:checked ~ span {
+    background: $khaki !important;
+  }
+
+  #menu a {
+    color: $khaki;
+
+    &:hover {
+      background: $khaki;
+      color: $white;
+    }
+  }
+
+  .header--nav {
+    display: none;
+  }
+
+  .hero__title {
+    margin-bottom: 30px;
+  }
+
+  .about__blocks {
+    flex-wrap: wrap;
+  }
+
+  .about__blocks-column {
+    flex: 1 0 50%;
+  }
+
+  .products__content-block {
+    flex-wrap: wrap;
+  }
+
+  .content-block__column {
+    flex: 1 0 50%;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .footer--top {
+    flex-wrap: wrap;
+  }
+  .ft--items {
+    flex: 1 0 50%;
+  }
+  .ft--left-item {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .hero {
+    min-height: 600px;
+  }
+  .hero__title {
+    font-size: 72px;
+  }
+
+  .hero__text {
+    font-size: 20px;
+  }
+
+  .about {
+    padding: 60px 0;
+  }
+
+  .about__title {
+    font-size: 48px;
+  }
+
+  .about__blocks-column {
+    min-height: 375px;
+  }
+
+  .about-block__icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .about-block__title {
+    font-size: 30px;
+  }
+
+  .about-block__text {
+    font-size: 18px;
+  }
+
+  .text-block__title {
+    font-size: 48px;
+  }
+
+  .text-content__title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .sale__title {
+    font-size: 72px;
+  }
+
+  .sale__text {
+    font-size: 20px;
+  }
+
+  .interesting__title {
+    font-size: 48px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .about__blocks-column {
+    flex: 1 0 100%;
+  }
+
+  .content-block__column {
+    flex: 1 0 100%;
+  }
+
+  .interesting__body::after {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .ft--items {
+    flex: 1 0 100%;
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hero {
+    padding: 90px 0 60px;
+  }
+}

@@ -1,0 +1,52 @@
+.interesting {
+  // .interesting__body
+  padding: 100px 0;
+
+  &__body {
+    padding: 60px 60px;
+    position: relative;
+
+    &::before {
+      display: block;
+      content: '';
+      width: 8px;
+      height: 70%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      background: $khaki;
+    }
+
+    &::after {
+      display: block;
+      content: '';
+      width: 41%;
+      height: 100%;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      background: lighten($khaki, $amount: 45);
+      z-index: -1;
+    }
+  }
+
+  // .interesting__title
+
+  &__title {
+    font-size: 72px;
+    margin-bottom: 20px;
+  }
+
+  // .interesting__text
+
+  &__text {
+    font-style: normal;
+    text-align: left;
+    margin: 0;
+    max-width: 100%;
+  }
+}
+.container {
+}
